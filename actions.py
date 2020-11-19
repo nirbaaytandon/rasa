@@ -304,8 +304,8 @@ class ActionSendEmail(Action):
         email_message = tracker.get_slot("email_message")
         str_email_id = str(email_id)
 
-        sender_email = 'nirbhay93@gmail.com'
-        sender_password = 'Qlpha!+'
+        sender_email = 'INSERT EMAIL ADDRESS HERE'
+        sender_password = 'INSERT PASSWORD HERE'
         # Create SMTP session for sending the mail
         server = smtplib.SMTP(host='smtp.gmail.com', port=587)
         server.set_debuglevel(1)
